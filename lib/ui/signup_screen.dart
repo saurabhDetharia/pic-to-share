@@ -26,6 +26,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
 
   final _signUpFormKey = GlobalKey<FormState>();
 
+
   /// UI
   @override
   Widget build(BuildContext context) {
@@ -325,13 +326,11 @@ class _SignUpScreenState extends State<SignUpScreen> {
 
     PhoneCodeSent codeSent =
         (String? verificationId, [int? forceResendingToken]) async {
-          _verificationId = verificationId!;
-          verificationCodeView(_auth, verificationId);
+          verificationCodeView(_auth, verificationId!);
     };
 
     PhoneCodeAutoRetrievalTimeout codeAutoRetrievalTimeout =
         (String verificationId) {
-      _verificationId = verificationId;
     };
 
     try {
