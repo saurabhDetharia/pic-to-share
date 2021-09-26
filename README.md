@@ -1,16 +1,28 @@
 # pictoshare
 
-A new Flutter project.
+An application to upload images and share with others.
 
-## Getting Started
+## App flow:
+## Sign in:
 
-This project is a starting point for a Flutter application.
+- User can sign in with their email and password.
 
-A few resources to get you started if this is your first Flutter project:
+## Sign up:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+1. Phone verification:
+- User has to choose the country code and enter phone number.
+- The verification code will be sent over the entered phone number.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. Details:
+- After phone verification, the user has to enter their name, email and password
+- The verification email will be sent to the entered email address.
+
+
+## Home:
+- If the user has not verify the email address, they will see the message for the same.
+- If the user has verified the email address, they can see the images uploaded by others.
+- Users can upload images and add the hashtags with it.
+- User can sign out from the account, by clicking on the logout button.
+
+## Note:
+- If the user sign up, but they verify the email from other device, app need to be restarted.
