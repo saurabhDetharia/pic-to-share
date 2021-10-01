@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "485216913867",
+    "project_id": "picshare-8a1cc",
+    "storage_bucket": "picshare-8a1cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485216913867:android:0d49a52b8974121d634e4e",
+        "android_client_info": {
+          "package_name": "com.example.pictoshare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "485216913867-do7nl2jlps87nidcjoqqrvf4mf004mt9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn7jVGIDwiXSPxzaUBMbIuBNCdlJgyvnY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "485216913867-do7nl2jlps87nidcjoqqrvf4mf004mt9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "485216913867-sbmmviqf6dn5c70agq256ss10v9ooic8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.pictoshare"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
